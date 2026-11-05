@@ -1,0 +1,138 @@
+```html
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Project</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #09090e;
+            color: white;
+            font-family: Arial, sans-serif;
+            min-height: 100vh;
+        }
+
+        header {
+            padding: 25px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #20202c;
+        }
+
+        .logo {
+            font-size: 25px;
+            font-weight: bold;
+            color: #8b5cf6;
+        }
+
+        .main {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .tag {
+            color: #a78bfa;
+            border: 1px solid #6d28d9;
+            padding: 8px 18px;
+            border-radius: 30px;
+            margin-bottom: 25px;
+            font-size: 13px;
+        }
+
+        h1 {
+            font-size: clamp(40px, 7vw, 75px);
+            margin-bottom: 20px;
+        }
+
+        h1 span {
+            color: #8b5cf6;
+        }
+
+        .description {
+            color: #9999aa;
+            font-size: 17px;
+            line-height: 1.8;
+            max-width: 600px;
+            margin-bottom: 15px;
+        }
+
+        .download {
+            margin-top: 30px;
+            padding: 17px 55px;
+            background: #8b5cf6;
+            color: white;
+            text-decoration: none;
+            font-size: 17px;
+            font-weight: bold;
+            border-radius: 12px;
+            transition: 0.3s;
+            box-shadow: 0 0 30px #8b5cf644;
+        }
+
+        .download:hover {
+            background: #7c3aed;
+            transform: translateY(-5px);
+            box-shadow: 0 0 40px #8b5cf677;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #555566;
+            border-top: 1px solid #20202c;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">MY PROJECT</div>
+    <div>OFFICIAL WEBSITE</div>
+</header>
+
+<main class="main">
+
+    <div class="tag">ADD TEXT</div>
+
+    <h1>ADD <span>TEXT</span></h1>
+
+    <p class="description">
+        ADD TEXT
+    </p>
+
+    <p class="description">
+        ADD TEXT
+    </p>
+
+    <p class="description">
+        ADD TEXT
+    </p>
+
+    <a href="download.html" class="download">
+        Download →
+    </a>
+
+</main>
+
+<footer>
+    © 2026 MY PROJECT. All rights reserved.
+</footer>
+
+</body>
+</html>
+```
